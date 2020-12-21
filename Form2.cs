@@ -17,6 +17,7 @@ namespace AssignmentDiary
             InitializeComponent();
         }
 
+
         private void label2_Click(object sender, EventArgs e)
         {
 
@@ -28,6 +29,16 @@ namespace AssignmentDiary
         }
 
         private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form2_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }
